@@ -1,0 +1,596 @@
+@media (max-width: 1140px) {
+    .container{
+        width: 90%;
+    }
+    .hero-hot{
+        width: 118px;
+    }
+    .men-so img {
+        width: 264px;
+    }
+    .so-i-to-me {
+        width: 375px;
+    }
+    .so-i-to-me {
+        width: 340px;
+    }
+    .so-i-to-me-lie-we-no h2 {
+        font-size: 9px;
+    }
+    .navbar-you {
+        justify-content: space-evenly;
+    }
+    .hero-img {
+        margin-left: 54px;
+    }
+
+
+
+}
+@media (max-width: 1200px) {
+.hero-hot{
+    width: 121%;
+}
+    .men-so img {
+        margin: -1px;
+    }
+    .hero-img {
+        width: 1117px;
+        height: 811px;
+    }
+
+}
+@media (max-width: 1024px) {
+
+    .hero-hot {
+        width: 128%;
+    }
+    .hero-img {
+        width: 873px;
+        height: 811px;
+    }
+    .top-so {
+        flex-direction: column;
+    }
+    .top-so-no p {
+        padding-bottom: 36px;
+    }
+    .men-top {
+        flex-wrap: wrap;
+    }
+    .men-so-go-oh {
+        flex-wrap: wrap;
+    }
+    .we button {
+        margin-left: 342px;
+    }
+    .so-i-to-me {
+        width: 305px;
+    }
+    .so-i-to-me-lie-we {
+        margin-left: -88px;
+    }
+    .so-i-to-me-lie-we-no h1 {
+        font-size: 6px;
+    }
+    .Аксессуары-so-go h1 {
+        font-size: 25px;
+    }
+    .navbar-you {
+        flex-direction: column;
+    }
+    .navbar h1 {
+        left: 205px;
+    }
+    .navbar1 {
+        flex-direction: column;
+    }
+}
+@media (max-width: 992px) {
+    .so-i-to-me-lie-we-no {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 768px) {
+    .hero-to p {
+        font-size: 13px;
+    }
+    .men-so img {
+        margin: -63px;
+        padding: 36px;
+    }
+    .men-no-i-you h3 {
+        margin-top: 58px;
+    }
+    .so-to-go p {
+        font-size: 18px;
+    }
+    .men-so img {
+        margin: -66px;
+        padding: 72px;
+    }
+    .men-so img {
+        width: 187px;
+    }
+    .men-top {
+        padding-bottom: 173px;
+    }
+    .men-so img {
+        margin: -74px;
+        padding: 73px;
+    }
+    .so-i-to {
+        flex-wrap: wrap;
+    }
+    .Iphone-so-go {
+        min-height: 24vh;
+    }
+    .Iphone-so-go h1 {
+        margin-left: -280px;
+    }
+    .Iphone-so-go p {
+        left: 399px;
+    }
+    .Samsung-so-go h1 {
+        left: 381px;
+    }
+    .Samsung-so-go p {
+        left: 370px;
+    }
+    .Наушники-so-go h1 {
+        left: 407px;
+    }
+    .Наушники-so-go p {
+        left: 403px;
+    }
+    .Аксессуары-so-go h1 {
+        left: 382px;
+    }
+    .Аксессуары-so-go p {
+        left: 369px;
+    }
+    .navbar-nav a {
+        font-size: 14px;
+    }
+    .navbar h1 {
+        left: 95px;
+    }
+    .hero-img {
+        width: 596px;
+        height: 586px;
+    }
+    .hero-oh {
+        flex-direction: column;
+    }
+}
+@media (max-width: 579px) {
+    #menu__toggle {
+        opacity: 0;
+    }
+    .hero-img {
+        width: 369px;
+        height: 390px;
+    }
+    .top-so-oh {
+        margin: 0 0 25px 0px;
+    }
+    .hero-to-i-so {
+        margin: 20px 20px 1px 1px;
+    }
+    .hero-to-i-so {
+        width: 259px;
+        margin: 20px 20px 1px 1px;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .navbar h1{
+
+    }
+    .Iphone-so-go {
+        display: none;
+    }
+    .so-i-to {
+        margin-left: 106px;
+    }
+    .hero-to {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: -16px;
+    }
+    .hero-to label {
+        margin: 10px;
+    }
+    .Samsung-so-go {
+        display: none;
+    }
+    .Аксессуары-so-go {
+        display: none;
+    }
+    .Наушники-so-go {
+        display: none;
+    }
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        right: 0;
+    }
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+
+        width: 26px;
+        height: 26px;
+
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+
+        width: 100%;
+        height: 2px;
+
+        background-color: #616161;
+
+        transition-duration: .25s;
+    }
+
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+
+        width: 300px;
+        height: 100%;
+
+        margin: 0;
+        padding: 80px 0;
+
+        list-style: none;
+
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+        transition-duration: .25s;
+
+    }
+
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+
+        color: #333;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+
+        text-decoration: none;
+
+        transition-duration: .25s;
+    }
+
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .hero {
+        flex-direction: column-reverse;
+    }
+    .men-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .men-so-go-hi {
+        margin-bottom: 47px;
+        margin-left: -209px;
+        flex-direction: column;
+    }
+    .men-so img {
+        margin: -74px;
+        padding: 91px;
+    }
+    .hero-hot {
+        width: 146%;
+    }
+    .we button {
+        margin-left: 101px;
+    }
+    .men-so img {
+        width: 161px;
+    }
+    .men-top {
+        padding-bottom: 248px;
+    }
+    .so-to p {
+        font-size: 17px;
+    }
+    .so-to h2 {
+        font-size: 13px;
+    }
+    .we-now-to {
+        flex-direction: column;
+    }
+    .we-now-two {
+        flex-direction: column;
+    }
+    .map-icon {
+        margin: 1px;
+        width: 381px;
+        height: 392px;
+    }
+    .hero-i {
+        flex-direction: column;
+    }
+    .hero-i-me button {
+        margin-bottom: 51px;
+    }
+
+
+}
+@media (max-width: 452px) {
+    .top {
+
+        flex-direction: column;
+    }
+    .flow {
+        margin: 1px;
+        width: 331px;
+        height: 216px;
+    }
+    .what {
+        margin: 1px;
+        width: 331px;
+        height: 216px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero-img {
+        margin-left: -5px;
+    }
+    .hero-to-i {
+        flex-wrap: wrap;
+    }
+    .men-so-go {
+        padding-left: 167px;
+        margin-top: -568px;
+    }
+    .so-us a {
+
+        margin-left: 183px;
+    }
+    .so-to {
+        flex-direction: column;
+    }
+    .so-to-go {
+        width: 379px;
+    }
+    .hero-hot {
+        width: 157%;
+    }
+    .men-so img {
+        width: 130px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .we button {
+        margin-left: 58px;
+    }
+    .top-me {
+        padding: 20px;
+    }
+    .phone {
+        width: 377px;
+    }
+    .men-top-i {
+        width: 358px;
+    }
+    .men-so img {
+        width: 84px;
+    }
+    .men-top {
+        padding-bottom: 523px;
+    }
+    .men-top-i-you {
+        margin-left: 195px;
+    }
+    .men-top-i {
+        width: 337px;
+    }
+    .so-us a {
+        margin-left: 48px;
+    }
+    .footer-go h1 {
+        padding-bottom: 47px;
+    }
+    .footer-me {
+        padding-bottom: 30px;
+    }
+    .so-i-to {
+        margin-left: 56px;
+    }
+    .map-icon {
+        margin-left: -84px;
+    }
+    .hero-i-me button {
+        margin-bottom: 51px;
+    }
+
+}
+@media (max-width: 426px) {
+    .menu__btn {
+        top: 55px;
+    }
+    .navbar img {
+        width: 342px;
+        height: 344px;
+    }
+    .hero-i-me button {
+        margin-bottom: 51px;
+    }
+    .hero-img {
+        height: 364px;
+        width: 396px;
+        margin-left: -5px;
+    }
+    .flow {
+        width: 425px;
+        height: 316px;
+    }
+
+
+
+}
+@media (max-width: 380px) {
+    .men-top {
+        padding-bottom: 523px;
+    }
+    .men-top-i-you {
+        margin-left: 195px;
+    }
+    .men-top-i {
+        width: 337px;
+    }
+    .so-us a {
+        margin-left: 48px;
+    }
+    .footer-go h1 {
+        padding-bottom: 47px;
+    }
+    .footer-me {
+        padding-bottom: 30px;
+    }
+    .hero-to h1 {
+        font-size: 15px;
+    }
+    .map-icon {
+        width: 331px;
+        height: 343px;
+    }
+    .hero-img {
+        height: 322px;
+        width: 348px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    .flow {
+        width: 325px;
+        height: 216px;
+    }
+    .top-so-no p {
+        font-size: 13px;
+    }
+
+
+}
+@media (max-width: 371px) {
+    .phone {
+        width: 326px;
+    }
+    .men-so img {
+        width: 77px;
+    }
+    .so-to-go {
+        width: 362px;
+    }
+    .we button {
+        margin-left: 33px;
+    }
+    .menu__btn {
+        top: 89px;
+    }
+}
+@media (max-width: 320px) {
+    .men-top-i {
+        width: 292px;
+        height: 316px;
+    }
+    .men-so img {
+        width: 93px;
+        margin-left: -136px;
+    }
+    .so-to-go {
+        width: 314px;
+    }
+    .we button {
+        margin-left: 3px;
+    }
+    .men-no-i-you h3 {
+        margin-top: 0px;
+    }
+    .so-i-to {
+        margin-left: -1px;
+    }
+    .navbar img {
+        width: 290px;
+        height: 282px;
+    }
+
+    .map-icon {
+        margin: 1px;
+        width: 320px;
+        height: 339px;
+        margin-left: -112px;
+    }
+    .hero-img {
+        height: 285px;
+        width: 297px;
+    }
+    span1 {
+        font-size: 13px;
+    }
+    .what {
+        width: 321px;
+        height: 216px;
+    }
+    .flow {
+        width: 320px;
+        height: 216px;
+    }
+}

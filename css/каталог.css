@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Montserrat,sans-serif;
+}
+#header{
+    background:#000000;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-icon a {
+    color: white;
+    padding: 30px;
+    margin-left: -20px;
+
+
+}
+
+.navbar-nav a{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #FFFFFF;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-icon{
+    display: flex;
+}
+.hero-to h1{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.hero-to-so{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero{
+    background: #111111;
+    padding: 100px 0 70px 0;
+}
+.hero-to{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-to label{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#so {
+    background: #111111;
+    padding: 40px 0 270px 0;
+}
+.Iphone-so-go{
+    background:url("../img/white.png") no-repeat center/cover;
+    min-height: 30vh;
+    position: relative;
+    z-index: 100;
+}
+.Iphone-so-go h1{
+    position: absolute;
+    left: 694px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.017em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.Iphone-so-go p{
+    position: absolute;
+    left: 693px;
+    top: 91px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.hero-to{
+    padding-bottom: 10px;
+}
+.so-i-to-me{
+    width: 391px;
+    height: 222px;
+    left: 134px;
+    top: 432px;
+    background: #2B2B2B;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.so-i-to-me-lie h1{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.so-i-to-me-lie-we-no h1{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.so-i-to-me-lie-we-no h2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.so-i-to-me-lie-we-no{
+    display: flex;
+    justify-content: space-around;
+}
+.so-i-to-me-oh{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.so-i-to-me-lie button{
+    width: 114px;
+    height: 24px;
+    left: 347px;
+    top: 619px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    background: none;
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.so-i-to-me-lie{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.so-i-to-me-lie-we-no h1{
+    margin: 0 70px 10px;
+    text-align: center;
+}
+.so-i-to-me-lie-we{
+    margin-left: -71px;
+    text-align: center;
+}
+.so-i-to{
+    display: flex;
+}
+.hamburger-menu{
+    display: none;
+}
+
+#footer{
+    background: rgba(17,17,17,0.91);
+    padding: 120px 0 120px 0;
+}
+.footer-me-i{
+    border: 1px solid #FFFFFF;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-me h2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.footer-me{
+    display: flex;
+}
+.footer-go h1{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+
+    color: #FFFFFF;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-so a{
+    margin: 0 10px;
+}
+.so input {
+    display: none;
+}
+#Iphone:checked~.Samsung,
+#Iphone:checked~.Наушники,
+#Iphone:checked~.Аксессуары{
+    display: none;
+}
+#Samsung:checked~.Iphone,
+#Samsung:checked~.Наушники,
+#Samsung:checked~.Аксессуары{
+    display: none;
+}
+#Наушники:checked~.Iphone,
+#Наушники:checked~.Samsung,
+#Наушники:checked~.Аксессуары{
+    display: none;
+}
+#Аксессуары:checked~.Iphone,
+#Аксессуары:checked~.Samsung,
+#Аксессуары:checked~.Наушники{
+    display: none;
+}
+.Samsung-so-go{
+    background:url("../img/n.png") no-repeat center/cover;
+    min-height: 30vh;
+    position: relative;
+    z-index: 100;
+}
+.Samsung-so-go h1{
+    position: absolute;
+    left: 694px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.017em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.Samsung-so-go p{
+    position: absolute;
+    left: 693px;
+    top: 91px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.Наушники-so-go{
+    background:url("../img/ол.png") no-repeat center/cover;
+    min-height: 30vh;
+    position: relative;
+    z-index: 100;
+}
+.Наушники-so-go h1{
+    position: absolute;
+    left: 694px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.017em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.Наушники-so-go p{
+    position: absolute;
+    left: 693px;
+    top: 91px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.Аксессуары-so-go{
+    background:url("../img/ь.png") no-repeat center/cover;
+    min-height: 30vh;
+    position: relative;
+    z-index: 100;
+}
+.Аксессуары-so-go h1{
+    position: absolute;
+    left: 694px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.017em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.Аксессуары-so-go p{
+    position: absolute;
+    left: 693px;
+    top: 91px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.tabs img{
+    animation:.3s alternate we ease-in;
+}
+@keyframes we {
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+
+
+
+
+
+
+
